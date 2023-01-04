@@ -1,6 +1,23 @@
 :root {
-
+    --primary: rgba(8, 32, 43, 0.827);
+    --secondary: rgb(167, 166, 166);
+    --tertiary: rgb(44, 44, 44);
+    --dark: rgb(0, 0, 0);
+    --light: rgb(66, 63, 66);
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--primary);
+    background-image: linear-gradient(
+      rgb(148, 146, 148) 1%,
+      rgba(137, 10, 175, 0.21) 100%
+    );
+    line-height: 1.5;
+  }
+  
 
 header {
     padding: 15px 6% 15px 0;
@@ -114,4 +131,5 @@ header {
     line-height: 1.5;
     display: inline;
   }
+  
   
