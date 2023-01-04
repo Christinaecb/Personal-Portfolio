@@ -84,6 +84,9 @@ header {
     align-items: stretch;
     justify-content: space-between;
   }
+  * {
+    box-sizing: border-box;
+  }
   
   .page-section > h2 {
     flex: 0 0 20%;
@@ -126,6 +129,20 @@ header {
     font-size: 0.9rem;
   }
   
+  .flex-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.flex-item div {
+  background-color: var(--secondary); 
+  padding: 8px 10px;
+}
+
+.flex-item h3 {
+  font-size: 1.6rem;
+}
+
 .contact address {
     display: flex;
     flex-wrap: wrap;
@@ -149,11 +166,6 @@ header {
     display: inline-block;
   }
   
-  .contact address a:hover {
-    background-size: 100% 88%;
-    color: var(--secondary);
-  }
-
   .banner {
     background: rgb(185, 107, 150);
     background-image: url("./style.css"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
@@ -182,5 +194,29 @@ header {
     line-height: 1.5;
     display: inline;
   }
+  /* images */
   
+  .run-buddy {
+    background-image: url("../images/place-holder-1.jpg");
+    background-size: contain;
+  }
   
+  .led-wall {
+    background-image: url("../images/place-holder-2.jpg");
+    background-size: contain;
+  }
+  
+  .react-calc {
+    background-image: url("../images/place-holder-3.jpg");
+    background-size: contain;
+  }
+  
+  .pastel-puzzles {
+    background-image: url("../images/place-holder-4.jpg");
+    background-size: contain;
+  }
+  
+  .surf-report {
+    background-image: url("../images/place-holder-5.jpg");
+    background-size: calc(10%);
+  }
