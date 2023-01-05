@@ -87,21 +87,16 @@ header {
     font-size: 1.4rem;
   }
   
-  nav a:hover {
-    background-size: 100% 100%;
-    color: var(--primary);
-  }
-  
   nav a:last-child {
     margin-right: 0;
   }
   
 #self-image {
-    block-size: 200px;
+    block-size: 210px;
     flex-wrap: wrap;
     justify-content: baseline;
-    border-radius: 10%;
-    box-shadow: 6px 6px rgb(128, 143, 170);    
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px rgb(128, 143, 170);    
 }
 
 .page-section {
@@ -195,6 +190,13 @@ header {
     display: inline-block;
   }
   
+  .footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
   /* images */
   
   .run-buddy {
