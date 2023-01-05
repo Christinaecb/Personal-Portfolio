@@ -39,6 +39,35 @@ header {
     line-height: 1;
   }
   
+  .banner {
+    background: rgb(185, 107, 150);
+    background-image: url("./style.css"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    min-height: 30vh;
+    color: var(--light);
+    padding: 2% 6%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: right;
+    margin-left: 0px;
+  }
+
+  .banner div {
+    flex: 0 0 90%;
+  }
+  
+  .banner h2 {
+    color: var(--tertiary);
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 3rem;
+    line-height: 1.5;
+    display: inline;
+  }
+
   nav {
     display: flex;
     flex-direction: row;
@@ -166,34 +195,6 @@ header {
     display: inline-block;
   }
   
-  .banner {
-    background: rgb(185, 107, 150);
-    background-image: url("./style.css"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: soft-light;
-    min-height: 30vh;
-    color: var(--light);
-    padding: 2% 6%;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    text-align: right;
-    margin-left: 0px;
-  }
-
-  .banner div {
-    flex: 0 0 90%;
-  }
-  
-  .banner h2 {
-    color: var(--tertiary);
-    margin: 0;
-    padding: 5px 10px;
-    font-size: 3rem;
-    line-height: 1.5;
-    display: inline;
-  }
   /* images */
   
   .run-buddy {
