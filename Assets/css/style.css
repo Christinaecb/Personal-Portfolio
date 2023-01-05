@@ -108,9 +108,6 @@ header {
     align-items: stretch;
     justify-content: space-between;
   }
-  * {
-    box-sizing: border-box;
-  }
   
   .page-section > h2 {
     flex: 0 0 20%;
