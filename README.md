@@ -4,7 +4,7 @@
 
 ## User Story
 
-As an employer I want to view a potential employee's deployed portfolio of work samples so that I can review samples of their work and assess whether they're a good candidate for an open position
+As an employer I want to view a potential employee's deployed portfolio of work samples so that I can review samples of their work and assess whether they're a good candidate for an open position.
 
 ## Acceptable Criteria
 
@@ -26,7 +26,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Description:
 
-In this assignment I am attempting to make a website that includes my name, a recent photo, working links that direct you to the corespoding sections and how to contact me
+In this assignment I am attempting to make a website that includes my name, a recent photo, working links that direct you to the correspoding sections and how to contact me.
 
 ## Screenshot:
 
