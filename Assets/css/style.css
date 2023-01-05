@@ -18,7 +18,7 @@ body {
     line-height: 1.5;
   }
   
-
+/* */
 header {
     padding: 15px 6% 15px 0;
     display: flex;
@@ -29,7 +29,7 @@ header {
     background-color: var(--tertiary);
     box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
   }
-
+/* Christina Barberi header text size*/
   header h1 {
     color: var(--tertiary);
     background-color: var(--secondary);
@@ -38,7 +38,7 @@ header {
     font-size: 4vw;
     line-height: 1;
   }
-  
+  /*Banner text size and colour*/
   .banner {
     background: rgb(185, 107, 150);
     background-image: url("./style.css"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
@@ -58,7 +58,7 @@ header {
   .banner div {
     flex: 0 0 90%;
   }
-  
+  /* Christina's corner text*/
   .banner h2 {
     color: var(--tertiary);
     margin: 0;
@@ -90,7 +90,7 @@ header {
   nav a:last-child {
     margin-right: 0;
   }
-  
+  /* Added blurred background to picture*/
 #self-image {
     block-size: 210px;
     flex-wrap: wrap;
@@ -131,7 +131,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+  /*Placement of boxes*/
   .flex-item {
     border: 5px solid var(--secondary);
     background-color: var(--primary);
@@ -186,12 +186,15 @@ header {
     margin: 0 0.2rem 0.1rem;
     display: inline-block;
   }
-  
+  /* Added text colour and background colour*/
   .footer {
+    min-height: 100;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: rgb(128, 143, 170);
+    background-color: rgb(0, 0, 0);
 }
 
   /* images */
