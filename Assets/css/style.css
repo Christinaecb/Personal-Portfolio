@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 :root {
     --primary: rgba(8, 32, 43, 0.827);
     --secondary: rgb(167, 166, 166);
@@ -85,6 +89,11 @@ header {
     background-position: bottom;
     transition: all 0.25s ease-in;
     font-size: 1.4rem;
+  }
+
+  nav a:hover {
+    background-size: 100% 100%;
+    color: var(--primary);
   }
   
   nav a:last-child {
@@ -205,8 +214,8 @@ header {
   }
   
   .led-wall {
-    background-image: url("../images/place-holder-2.jpg");
-    background-size: contain;
+    background-image: url("../images/Nomad-Nebula.png");
+    background-size: cover;
   }
   
   .react-calc {
