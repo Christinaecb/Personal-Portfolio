@@ -30,8 +30,8 @@ In this assignment I am attempting to make a website that includes my name, a re
 
 ## Screenshot:
 
-![Alt text](./Assets/images/screenshot.png)
+![Alt text](./Assets/images/New-screenshot.png)
 
 # Link to deployed website:
 
-Portfolio: https://christinaecb.github.io/Challenge-Two/
+Portfolio: https://christinaecb.github.io/Personal-Portfolio/
